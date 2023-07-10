@@ -1,0 +1,73 @@
+#insta:hover{
+    box-shadow: 0px 0px 10px 2px #DD2A7b;
+}
+#Discord:hover{box-shadow: 0px 0px 10px 2px #7289da;
+
+}
+#Portfolio:hover{box-shadow: 0px 0px 10px 2px white;
+
+}
+#youtube:hover{
+    box-shadow: 0px 0px 10px 2px #c4302b;
+
+}
+
+    #pic{
+        border-radius: 50%;
+        background-color: aliceblue;
+        height: 75px;
+        width: 75px;
+        position: relative;
+        top: -25px;
+        left: 125px;
+    background-image: url(https://cdn.discordapp.com/attachments/1066715664087273616/1119164543935971398/Dan_Text_Logo_Blue.jpg);
+background-size: cover;   
+}
+    #title{
+        margin-left: -50%;
+        position: relative;
+        top: 40px;
+    }
+    *{
+        color: white;
+    }
+    body{
+        background-color: black;
+    }
+    #container{
+    background-color: #001A33;
+ height: 500px;
+ width: 40%; 
+ box-shadow: 0px 0px 10px 2px white;
+margin-top: 2.5%;
+border-radius: 5%;
+   }
+   .btn{
+    border-radius: 100px;
+    padding: 5px 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-weight: 700;
+    border: 0;
+   }
+   @media only screen and (max-width: 850px) {
+    #container{
+     width: 60%; 
+       }
+  }
+  @media only screen and (max-width: 580px) {
+    #pic{
+        left: 30%;
+
+    }
+  }
+  @media only screen and (max-width: 550px) {
+#title{
+left: -30;
+}
+#container{
+    height: 100%;
+    width: 100%;
+}
+  }
